@@ -1,0 +1,74 @@
+.container-border {
+    margin: auto;
+    padding: 30px;
+    border: 3px solid rgb(116, 79, 219);
+    height: 1100px;
+    width: 700px;
+
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family: Arial;
+}
+
+h1 {
+    color:rgb(24, 126, 95);
+}
+
+h2 {
+    display: block;
+    color: rgb(24, 126, 95);
+}
+
+
+#logo {
+    width: 230px;
+    height: auto;
+}
+
+.info {
+    width: 500px;
+    display: grid;
+    grid-template-columns: 110px 250px;
+    gap: 10px 20px;
+    align-items: center;
+    margin-bottom: 25px;
+
+}
+
+.info label {
+    font-weight: bold;
+}
+
+label {
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.radio {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    font-family: Arial;
+
+}
+
+.check-box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.contact {
+    height: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 15px;
+}
+

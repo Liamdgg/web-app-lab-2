@@ -1,0 +1,46 @@
+.container {
+    width: 650px;
+    height: 300px;
+    margin:  auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    outline: 1px solid grey;
+}
+
+.content {
+    width: 100%;
+    height: 180px;
+    outline: 1px solid grey;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    outline: 1px solid grey;
+}
+
+.sidebarA {
+    outline: 1px solid grey;
+    flex: 1;
+}
+
+.sidebarB {
+    outline: 1px solid grey;
+    flex: 1;
+}
+
+.main {
+    outline: 1px solid grey;
+    flex: 4;
+    
+}
